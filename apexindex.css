@@ -1,0 +1,155 @@
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    padding: 5px 20px;
+    
+}
+.topright{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1px 10px;
+}
+.topright:hover{
+    text-decoration: underline;
+}
+.parent{
+    background-image: url(./backg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+.nav2{  
+   padding: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 130%;
+    padding-top: 0px;
+    justify-content: space-between;
+    
+}
+
+.menu1 a{
+    position: relative;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding: 5px 15px;   
+}
+.icon a{
+    color: white;
+    padding: 0px 5px;  
+    
+}
+.nav2 .menu1 .mid:hover{
+    text-decoration: underline;
+    color: white;
+}
+.unleash{
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    right: 40%;
+}
+.unleash1{
+    color: white;
+    font-size: 35px; 
+    font: bold;
+}
+.unleash2{
+    color: white;
+    font-size: 22px;   
+}
+.btn button{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 38px;
+    width: 9%;
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    left: 40%;
+    
+
+}
+.btn .btn01{
+    position: relative;
+    align-items: center;
+    margin: 5%;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-top: 8px;
+     margin-bottom: 5%;
+}
+.btn button:hover{
+background-color: white;
+color: black; 
+
+}
+.thired{
+    height: 200%;
+    width: 100%;
+    background-color: rgb(30, 29, 29);
+    padding: 15%;
+    position: relative;
+
+}
+.thired .thired1{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: -200px;
+    margin-left: -10px;
+   
+}
+.bold{
+    font-size: 40px;
+}
+.nbold{
+    font-size: 15px;
+}
+.thired .thired1 .thiredbtn{
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 30px;
+    width: 25%;
+}
+.thired .thired1 .thiredbtn:hover{
+    background-color: white;
+    color: black;  
+}
+.video .vid{
+    position: absolute;
+    bottom: -50%;
+    left: 40%;
+   
+}
+.fgfg .fg{
+    position: absolute;
+   left: 11%;
+    top: 60%;
+}
+.imgslide{
+    position: relative;
+    text-align: center;
+    
+    display: flex;   
+}
+.imgslide .imglist{
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    top: 280px;
+}
+
